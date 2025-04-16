@@ -1,0 +1,6 @@
+[submodule "MiniCore"]
+	path = MiniCore
+	url = https://github.com/MCUdude/MiniCore
+[submodule "ArduinoCore-avr"]
+	path = ArduinoCore-avr
+	url = https://github.com/arduino/ArduinoCore-avr
