@@ -103,6 +103,7 @@ arduino-cli core install MiniCore:avr --additional-urls https://mcudude.github.i
 
 ## Setting up the board for the first time
 
+> [!NOTE]
 > You will need an ICSP Programmer for this step as we need to flash the URBoot bootloader on the ATmega328PB.
 
 * Under the boards menu: select **MiniCore > ATmega328**.
