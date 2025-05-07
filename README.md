@@ -1,8 +1,8 @@
 # UnoMiniC
 
-Ever being annoyed by the bulky size of an Arduino Uno? Ever lost the USB B cable to program your Uno? Not wanting to use 3v3 TTL logic? Compressing the original Arduino Uno to a form factor of Pi Pico but still maintaining the HID support I present you the UnoMiniC.
+UnoMiniC is a compact, USB-C–powered Arduino Uno-compatible board designed for modern embedded development. It features the ATmega328PB and ATmega16U2 for reliable USB-to-serial communication with auto-reset support.
 
-The board is powered and programmed through a USB C interface; a VIN pin breakout is provided in case it has to be ran on a battery pack. ICSP headers (as test points) is provided for  both  ATmega16U2  and  ATmega328PB.  On-board  auto  reset  is  configured  to  reset  the microcontroller  to programming  mode  when programming with  the  USB interface.
+Created to address the size and USB limitations of traditional Arduino boards, UnoMiniC offers a Pico-sized design with breakouts for VIN, ICSP, and DTR reset. The board is powered and programmed through a USB C interface; a VIN pin breakout is provided in case it has to be ran on a battery pack. ICSP headers (as test points) is provided for  both  ATmega16U2  and  ATmega328PB.  On-board  auto  reset  is  configured  to  reset  the microcontroller  to programming  mode  when programming with  the  USB interface.
 
 ## Software Reqiurement  
 
